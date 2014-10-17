@@ -11,8 +11,8 @@ Implementar el algoritmo de intercambio de claves de Diffie-Hellman.
 1. Implementa el generador el algoritmo de intercambio de claves de Diffie-Hellman según el diagrama que se incluye a continuación:
 
 ```
-	  A						B
-    escoge secreto xA				escoge secreto xB
+	  A								B
+    escoge secreto xA					escoge secreto xB
     calcula yA =α^(xA) (mod p)			calcula y B =α^(xB) (mod p)
     genera k= yB^(xA) (mod p)			genera k= yA^(xB) (mod p)
 ```
